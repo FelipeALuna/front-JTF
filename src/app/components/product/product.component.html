@@ -1,33 +1,15 @@
-<div class="card">
-
-  <!--Card image-->
-  <div class="view overlay">
-    <img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/12.jpg" class="card-img-top" alt="">
-    <a>
-      <div class="mask rgba-white-slight"></div>
-    </a>
-  </div>
-  <!--Card image-->
-
-  <!--Card content-->
-  <div class="card-body text-center">
-    <!--Category & Title-->
-    <a href="" class="grey-text">
-      <h5>Shirt</h5>
-    </a>
-    <h5>
-      <strong>
-        <a href="" class="dark-grey-text">Denim shirt
-          <span class="badge badge-pill danger-color">NEW</span>
-        </a>
-      </strong>
-    </h5>
-
-    <h4 class="font-weight-bold blue-text">
-      <strong>120$</strong>
-    </h4>
+<div class="product-item card">
+  <div class="product-image" style="background-image:url('https://imgnike-a.akamaihd.net/1300x1300/011341ID.jpg')">
 
   </div>
-  <!--Card content-->
-
+  <div class="product-name">
+      <strong>Nike Shox</strong>
+  </div>
+  <div class="product-price">
+      {{10 + 10 | currency : 'R$'}}
+  </div>
+  <div class="product-button">
+    <button class="btn btn-primary"> Adicionar ao Carrinho</button>
+    <button class="btn btn btn-dark"> Ver detalhes</button>
+  </div>
 </div>
