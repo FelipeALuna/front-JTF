@@ -1,15 +1,17 @@
-<div class="product-item card">
-  <div class="product-image" style="background-image:url('https://imgnike-a.akamaihd.net/1300x1300/011341ID.jpg')">
+<a href="#">
+  <div class="product-item card">
+    <div class="product-image" style="{{this.image}}">
 
+    </div>
+    <div class="product-name">
+        <strong>{{this.product.nome}}</strong>
+    </div>
+    <div class="product-price">
+        {{this.product.preco | currency : 'R$'}}
+    </div>
+    <div class="product-button">
+      <button class="btn btn-primary"> Adicionar ao Carrinho</button>
+      <button class="btn btn btn-dark"> Ver detalhes</button>
+    </div>
   </div>
-  <div class="product-name">
-      <strong>Nike Shox</strong>
-  </div>
-  <div class="product-price">
-      {{10 + 10 | currency : 'R$'}}
-  </div>
-  <div class="product-button">
-    <button class="btn btn-primary"> Adicionar ao Carrinho</button>
-    <button class="btn btn btn-dark"> Ver detalhes</button>
-  </div>
-</div>
+</a>

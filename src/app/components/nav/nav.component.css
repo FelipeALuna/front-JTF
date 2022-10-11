@@ -1,0 +1,10 @@
+.logo{
+   max-width: 100px;
+}
+.container{
+  position:relative;
+}
+.card-shopping{
+  position:absolute;
+  right:0;
+}
