@@ -1,6 +1,6 @@
 .footer-app{
   bottom: 0;
-  position: absolute;
-  width: 100vw;
+  position: relative;
 
+  width: 100%;
 }
